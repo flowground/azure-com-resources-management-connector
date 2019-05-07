@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "api_version": {
+            "required": true,
+            "type": "string"
+        },
+        "_skiptoken": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

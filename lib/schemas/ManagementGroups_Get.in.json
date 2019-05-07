@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "groupId": {
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        },
+        "_expand": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "children"
+            ]
+        },
+        "_recurse": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}
